@@ -1,0 +1,91 @@
+body{
+    background-color: #EEE;
+}
+
+.main_card{
+    display: inline-block;
+    background-color: #FFF;
+    width: 20%;
+    margin: 20px;
+    position: relative;
+}
+
+.layar_card{
+    background-color: rgba(103, 101, 101, 0.803);
+    display: none;
+    position: absolute;
+    top: 11%;
+    right: 0%;
+    bottom: 53%;
+    left: 0%;
+    z-index: 1;
+
+}
+.layar_card span{
+    display: inline-block;
+    color: orange;
+    padding: 20px;
+    margin-top: 30%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.main_card:hover .layar_card{
+    display: block;
+}
+.main_card .main_img{
+    position: relative;
+}
+
+.main_card a{
+  text-decoration: none;
+  display: inline-block;
+  color: gray;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   
+}
+
+.main_card a:hover{
+    color: aqua;
+}
+
+.main_card a span .java{
+    color: aqua;
+}
+.main_card h3{
+    color: aqua !important;
+    padding-bottom: 0px !important;
+}
+
+.main_card img{
+    width: 100%;
+    
+}
+.main_card hr{
+   width:10%;
+   border: 2px solid gray;
+    margin-left: 15px;
+}
+.main_card h3,p{
+    padding-left: 15px;
+    padding-bottom: 30px;
+    line-height: 25px;
+    color: gray;
+}
+
+.main_imag img{
+    width: 20%;
+    border: 6px solid rgb(222, 217, 217);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 37%;
+    right: 6%;
+    z-index: 22;
+}
+
+
